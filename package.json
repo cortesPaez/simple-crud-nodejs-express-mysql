@@ -1,0 +1,28 @@
+{
+  "name": "simple-crud-nodejs-express-mysql",
+  "version": "1.0.0",
+  "description": "crud simple created with nodejs, express and mysql",
+  "main": "index.js",
+  "type": "module",
+  "engine": "18.*",
+  "scripts": {
+    "start": "node --watch src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cortesPaez/simple-crud-nodejs-express-mysql.git"
+  },
+  "author": "Cristobal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cortesPaez/simple-crud-nodejs-express-mysql/issues"
+  },
+  "homepage": "https://github.com/cortesPaez/simple-crud-nodejs-express-mysql#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.1.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
